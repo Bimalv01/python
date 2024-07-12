@@ -1,4 +1,4 @@
-def draw_pattern(rows, cols):
+def pattern(rows, cols):
     if cols % 2 != 0:
         cu = (cols + 1) // 2
     else:
@@ -46,4 +46,4 @@ def draw_pattern(rows, cols):
 
 rows = int(input("Enter number of rows: "))
 cols = int(input("Enter number of columns: "))
-draw_pattern(rows, cols)
+pattern(rows, cols)
